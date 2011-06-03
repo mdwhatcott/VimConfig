@@ -22,7 +22,7 @@ if has("unix")
 		set guifont=Monaco:h20
 	else
 		" Unix Gui:
-		set guifont=Monospace\ 10
+		set guifont=Monospace\ 14
 		map <F9> <ESC>;set guifont=Monospace\ 8<ENTER>
 		map <F10> <ESC>;set guifont=Monospace\ 10<ENTER>
 		map <F11> <ESC>;set guifont=Monospace\ 12<ENTER>
@@ -30,10 +30,12 @@ if has("unix")
 		
 		" Remove toolbar
 		set guioptions-=T
+
+		winpos 0 0
 	endif
 else
 	" Windows Gui:
-	set guifont=Consolas:h12:b
+	set guifont=Consolas:h14:b
 	map <F9> <ESC>;set guifont=Consolas:h8:b<ENTER>
 	map <F10> <ESC>;set guifont=Consolas:h10:b<ENTER>
 	map <F11> <ESC>;set guifont=Consolas:h12:b<ENTER>
