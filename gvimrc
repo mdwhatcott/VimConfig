@@ -43,6 +43,6 @@ else
 	set guioptions-=T
 	
 	" maximize on startup
-	au GUIEnter * simalt -x 
+	au GUIEnter * simalt ~x 
 endif
 
