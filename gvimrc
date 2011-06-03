@@ -27,6 +27,9 @@ if has("unix")
 		map <F10> <ESC>;set guifont=Monospace\ 10<ENTER>
 		map <F11> <ESC>;set guifont=Monospace\ 12<ENTER>
 		map <F12> <ESC>;set guifont=Monospace\ 14<ENTER>
+		
+		" Remove toolbar
+		set guioptions-=T
 	endif
 else
 	" Windows Gui:
@@ -35,5 +38,8 @@ else
 	map <F10> <ESC>;set guifont=Consolas:h10:b<ENTER>
 	map <F11> <ESC>;set guifont=Consolas:h12:b<ENTER>
 	map <F12> <ESC>;set guifont=Consolas:h14:b<ENTER>
+
+	" Remove toolbar
+	set guioptions-=T
 endif
 

@@ -26,3 +26,9 @@
 	path = bundle/molly
 	url = https://github.com/westoque/molly.vim.git
 	ignore = dirty
+[submodule "bundle/blockle"]
+	path = bundle/blockle
+	url = https://github.com/vim-scripts/blockle.vim.git
+[submodule "bundle/enterindent"]
+	path = bundle/enterindent
+	url = https://github.com/vim-scripts/Enter-Indent.git
