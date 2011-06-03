@@ -1,0 +1,28 @@
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+	ignore = dirty
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = git://github.com/msanders/snipmate.vim
+	ignore = dirty
+[submodule "bundle/repeat"]
+	path = bundle/repeat
+	url = git://github.com/tpope/vim-repeat.git
+	ignore = dirty
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = git://github.com/tpope/vim-surround.git
+	ignore = dirty
+[submodule "bundle/ragtag"]
+	path = bundle/ragtag
+	url = git://github.com/tpope/vim-ragtag.git
+	ignore = dirty
+[submodule "bundle/endwise"]
+	path = bundle/endwise
+	url = git://github.com/tpope/vim-endwise.git
+	ignore = dirty
+[submodule "bundle/molly"]
+	path = bundle/molly
+	url = https://github.com/westoque/molly.vim.git
+	ignore = dirty
