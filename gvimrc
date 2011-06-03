@@ -41,5 +41,8 @@ else
 
 	" Remove toolbar
 	set guioptions-=T
+	
+	" maximize on startup
+	au GUIEnter * simalt -x 
 endif
 
