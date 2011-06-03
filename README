@@ -1,0 +1,8 @@
+Install Instructions:
+---------------------
+
+$ git clone https://mdwhatcott@github.com/mdwhatcott/VimConfig.git ~/.vim
+$ cd ~/.vim
+$ git submodule update --init
+$ ln -s vimrc ~/.vimrc
+$ ln -s gvimrc ~/.gvimrc
