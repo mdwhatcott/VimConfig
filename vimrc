@@ -13,6 +13,12 @@
 	vnoremap ; :
 	vnoremap : ;
 
+	" IMPORTANT: Escape key is too far away - use <Shift> + <Space> to exit
+	" insert mode. The '`^' keeps the cursor in the same place
+	imap <S-space> <Esc>`^
+	" Add a corresponding (yet optional), mapping for entering insert mode:
+	nmap <S-space> i
+
 	" Create Blank Newlines and stay in Normal mode
 	nnoremap <silent> zj o<Esc>
 	nnoremap <silent> zk O<Esc>
@@ -21,6 +27,7 @@
 	noremap <c-j> j<c-e>
 	noremap <c-k> k<c-y>
 
+	" Calls the Molly 'Command-T' plugin
 	let mapleader = ","
 	map <Leader>t ;Molly<RETURN>
 
