@@ -15,5 +15,5 @@ C:\> git clone https://mdwhatcott@github.com/mdwhatcott/VimConfig.git  %HOME%\vi
 C:\> cd %HOME%\vimfiles
 C:\> git submodule update --init
 C:\> cd ..
-C:\> mklink %HOME%\vimrc %HOME%\vimfiles\vimrc
-C:\> mklink %HOME%\gvimrc %HOME%\vimfiles\gvimrc
+C:\> mklink %HOME%\.vimrc %HOME%\vimfiles\vimrc
+C:\> mklink %HOME%\.gvimrc %HOME%\vimfiles\gvimrc
