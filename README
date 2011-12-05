@@ -1,5 +1,5 @@
-Install Instructions:
----------------------
+*nix Install Instructions:
+--------------------------
 
 $ git clone https://mdwhatcott@github.com/mdwhatcott/VimConfig.git ~/.vim
 $ cd ~/.vim
@@ -7,3 +7,13 @@ $ git submodule update --init
 $ cd ~
 $ ln -s .vim/vimrc .vimrc
 $ ln -s .vim/gvimrc .gvimrc
+
+
+Windows Install Instructions:
+-----------------------------
+C:\> git clone https://mdwhatcott@github.com/mdwhatcott/VimConfig.git  %HOME%\vimfiles
+C:\> cd %HOME%\vimfiles
+C:\> git submodule update --init
+C:\> cd ..
+C:\> mklink %HOME%\vimrc %HOME%\vimfiles\vimrc
+C:\> mklink %HOME%\gvimrc %HOME%\vimfiles\gvimrc
