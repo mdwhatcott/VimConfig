@@ -26,7 +26,8 @@
 	map <Leader>t ;Molly<RETURN>
 
 " Appearance:
-	colorscheme wombat
+	set background=dark
+	colorscheme solarized
 	syntax on
 	set number
 	set ruler
