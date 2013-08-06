@@ -3,10 +3,8 @@
 
 $ git clone https://mdwhatcott@github.com/mdwhatcott/VimConfig.git ~/.vim
 $ cd ~/.vim
-$ git submodule update --init
-$ cd ~
-$ ln -s .vim/vimrc .vimrc
-$ ln -s .vim/gvimrc .gvimrc
+$ chmod +x install.sh
+$ ./install.sh
 
 
 Windows Install Instructions:
@@ -17,3 +15,12 @@ C:\> git submodule update --init
 C:\> cd ..
 C:\> mklink %HOME%\.vimrc %HOME%\vimfiles\vimrc
 C:\> mklink %HOME%\.gvimrc %HOME%\vimfiles\gvimrc
+
+
+Adding pathogen style plugins:
+------------------------------
+$ cd ~/.vim
+$ git submodule add <url-to-repository> bundle/<name-of-plugin>
+$ git add -A
+$ git commit -m "Added <name-of-plugin>"
+$ git push origin master
