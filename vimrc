@@ -13,12 +13,6 @@
 	vnoremap ; :
 	vnoremap : ;
 
-	" IMPORTANT: Escape key is too far away - use <Shift> + <Space> to exit
-	" insert mode. The '`^' keeps the cursor in the same place
-	imap <S-space> <Esc>`^
-	" Add a corresponding (yet optional), mapping for entering insert mode:
-	nmap <S-space> i
-
 	" Create Blank Newlines and stay in Normal mode
 	nnoremap <silent> zj o<Esc>
 	nnoremap <silent> zk O<Esc>
@@ -45,6 +39,9 @@
 	set scrolloff=5
 	set sidescrolloff=5
 
+	" GoLang file:
+	set rtp+=/usr/local/go/misc/vim
+
 " Editing:
 	filetype indent plugin on
 
@@ -59,6 +56,9 @@
 	" search will center on the line it's found in.
 	map N Nzz
 	map n nzz
+
+	" GoLang:
+	au BufRead,BufNewFile *.go set filetype=go
 
 	" Ruby-specific whitespace rules:
 	au BufRead,BufNewFile *.rb set tabstop=2
