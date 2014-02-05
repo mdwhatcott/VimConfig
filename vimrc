@@ -3,6 +3,7 @@
 	call pathogen#helptags()
 	call pathogen#runtime_append_all_bundles()
 
+
 " Remappings:
 
 	" IMPORTANT: Swap ; and : to save our pinky fingers.
@@ -12,6 +13,12 @@
 	nnoremap : ;
 	vnoremap ; :
 	vnoremap : ;
+
+	" Tab navigation
+	map tj ;tabprev<CR>
+	map tk ;tabnext<CR>
+	vmap tj ;tabprev<CR>
+	vmap tk ;tabnext<CR>
 
 	" Create Blank Newlines and stay in Normal mode
 	nnoremap <silent> zj o<Esc>
